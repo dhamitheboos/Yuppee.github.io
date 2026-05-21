@@ -11,23 +11,30 @@
     gtag('config', 'G-PS5SKEXHVW');
   </script>
 
+  <!-- Google AdSense -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7281786237623154"
+    crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Play Free Online Games | Blink Infotech</title>
-  
-  <!-- ✅ SEO Meta -->
+
+  <!-- SEO Meta -->
   <meta name="description" content="Play free online games instantly. Action, racing, puzzle, and multiplayer games — all in one place. Powered by Blink infotech."/>
   <meta name="keywords" content="online games, free games, play games, racing games, action games, puzzle games, multiplayer games"/>
   <meta property="og:title" content="Play Free Online Games | Blink Infotech"/>
   <meta property="og:description" content="Enjoy free online games with no downloads. Play racing, action, puzzle and multiplayer games instantly."/>
   <meta property="og:type" content="website"/>
   <meta property="og:image" content="https://blinkgames007.github.io/assets/img_hextris.png"/>
+
   <link rel="icon" href="favicon.png" type="image/png">
 
   <!-- Fonts + CSS -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- ================= HEADER ================= -->
@@ -36,12 +43,14 @@
       <div class="company-logo"></div>
       <h1 class="company-name"></h1>
     </div>
+
     <div class="search-bar">
       <input type="text" id="gameSearch" placeholder="Search games..." />
     </div>
+
     <button class="search-toggle" onclick="toggleSearch()">🔍</button>
   </header>
-  
+
   <!-- ================= HERO ================= -->
   <section class="hero home-bg">
     <div class="hero-content">
@@ -50,9 +59,9 @@
     </div>
   </section>
 
-<!-- =================== ADS =================== -->
- <div id="banner1"></div>
-  
+  <!-- ================= ADS ================= -->
+  <div id="banner1"></div>
+
   <!-- ================= GAMES ================= -->
   <main>
     <section id="games">
@@ -61,63 +70,73 @@
     </section>
   </main>
 
-<!-- ================= ADS ================= -->
-<div id="banner2"></div>
-  
+  <!-- ================= ADS ================= -->
+  <div id="banner2"></div>
+
   <!-- ================= FOOTER ================= -->
   <footer class="site-footer">
     <div class="footer-container">
+
       <!-- Left -->
       <div class="footer-left">
         <div class="brand">
           <div class="company-logo"></div>
           <h2 class="company-name"></h2>
         </div>
-        <p class="dev-company">Developed by <span class="company-owner"></p>
+
+        <p class="dev-company">
+          Developed by <span class="company-owner"></span>
+        </p>
+
         <div class="footer-socials" id="footer-socials"></div>
       </div>
 
       <!-- Right -->
       <div class="footer-right">
+
         <div class="footer-column">
           <h4>Get To Know Us</h4>
           <a href="about.html">About</a>
-          <!-- <a href="#"><span class="company-name"></span> for Developers</a> -->
         </div>
+
         <div class="footer-column">
           <h4>Privacy and Terms</h4>
           <a href="privacypolicy.html">Privacy Center</a>
         </div>
+
         <div class="footer-column">
           <h4>Help and Support</h4>
-          <!-- <a href="/faq.html">FAQ</a> -->
-          <a href="contact.html">Contact US</a>
+          <a href="contact.html">Contact Us</a>
         </div>
+
       </div>
     </div>
+
     <p class="footer-bottom">
-      &copy; <span id="year"></span> <span class="website-name"></span>. All rights reserved. <br>
-      Powered by <strong><span class="company-owner"></strong>
+      &copy; <span id="year"></span>
+      <span class="website-name"></span>.
+      All rights reserved.
+      <br>
+      Powered by <strong><span class="company-owner"></span></strong>
     </p>
   </footer>
 
   <!-- ================= SCRIPTS ================= -->
   <script src="config.js"></script>
   <script src="GoogleAdsManager.js"></script>
+
   <script>
-     const ads = new GoogleAdsManager("ca-pub-9301267932926503");
-     ads.loadAutoAds();
+    const ads = new GoogleAdsManager("ca-pub-7281786237622511");
+
+    // Auto Ads
+    ads.loadAutoAds();
+
+    // Banner Ads
     ads.loadAdUnit("banner1", "3089669868", "auto");
-  ads.loadAdUnit("banner2", "3089669868", "auto");
+    ads.loadAdUnit("banner2", "3089669868", "auto");
   </script>
 
   <script src="script.js"></script>
+
 </body>
 </html>
-
-
-
-
-
-
-
